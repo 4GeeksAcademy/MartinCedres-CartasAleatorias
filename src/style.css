@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  width: 300px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.rojo {
+  color: red;
+}
+
+.negro {
+  color: black;
+}
+
+.paloArriba,
+.paloAbajo {
+  font-size: 100px;
+}
+
+.numero {
+  font-size: 80px;
+}
